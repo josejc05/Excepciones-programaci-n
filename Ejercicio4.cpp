@@ -21,7 +21,7 @@ int main() {
         Excepcion();
     }
     catch (const MiExcepcion& e) {
-        cout << "Excepcion captureada: " << e.what() << endl;
+        cout << "Excepcion capturada: " << e.what() << endl;
     }
     return 0;
 }
